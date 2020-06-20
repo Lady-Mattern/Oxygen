@@ -4,7 +4,7 @@
 -- https://boiling-forest-61657.herokuapp.com/
 
 ## Contributors
-- Katie Abraham //link githubs
+- Katie Abraham 
 - Leah Mattern
 - Tim Rager
 - Whitney Smith
