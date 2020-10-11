@@ -1,0 +1,33 @@
+{
+  "name": "unit3project",
+  "version": "1.0.0",
+  "description": "Oxygen",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timrager/unit3project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timrager/unit3project/issues"
+  },
+  "homepage": "https://github.com/timrager/unit3project#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "mongoose": "^5.9.16",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "react": "^16.13.1",
+    "react-axios": "^2.0.3",
+    "react-router-dom": "^5.2.0"
+  }
+}
