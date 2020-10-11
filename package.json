@@ -1,6 +1,12 @@
 {
   "name": "unit3project",
   "version": "1.0.0",
+<<<<<<< HEAD
+=======
+  "engines": {
+    "node": "13.8.0"
+  },
+>>>>>>> cd210f2003013b1152a4e2d5d91b656709714902
   "description": "Oxygen",
   "main": "server.js",
   "scripts": {

@@ -57,7 +57,11 @@ class App extends React.Component{
             // localStorage.token = response.data.token;
             this.setState({
                 user: {
+<<<<<<< HEAD
                     isLoggedIn: true,
+=======
+                    isLoggedIn: false,
+>>>>>>> cd210f2003013b1152a4e2d5d91b656709714902
                     name: '',
                     email: '',
                     password: '',
