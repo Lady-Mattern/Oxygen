@@ -12,11 +12,7 @@ const plantsController = require('./controllers/oxygen.js');
 // VARIABLES
 //=======================
 const app = express();
-<<<<<<< HEAD
-const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/oxygen';
-=======
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/oxygen';
->>>>>>> cd210f2003013b1152a4e2d5d91b656709714902
 const PORT = process.env.PORT || 3000;
 
 //=======================
@@ -32,18 +28,10 @@ app.use('/oxygen', plantsController)
 //=======================
 // MONGODB CONNECTION
 //=======================
-<<<<<<< HEAD
-mongoose.connect(mongoURI, { useNewUrlParser: true }, () => {
-    console.log('connected to mongo', mongoURI);
-})
-mongoose.connection.on('error', (error) => console.log(error.message));
-mongoose.connection.on('disconnected', () => console.log('mongo disconnected'));
-=======
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true })
 mongoose.connection.on('error', (error) => console.log(error.message));
 mongoose.connection.on('disconnected', () => console.log('mongo disconnected'));
 mongoose.connection.on('open', ()=>{});
->>>>>>> cd210f2003013b1152a4e2d5d91b656709714902
 
 //=======================
 // LISTENING
